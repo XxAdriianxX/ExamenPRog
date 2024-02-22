@@ -1,0 +1,54 @@
+/* estilos/css/styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: black; /* Todas las letras en negro */
+}
+
+/* Estilos de la tabla */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilos para el estado "Pagado" */
+.pagado { color: green; }
+    
+
+/* Estilos para el estado "No Pagado" */
+.no-pagado { color: red; }
+
+/* Estilos para cantidades altas */
+.alta-cantidad {
+    font-weight: bold;
+}
+
+/* Estilos para los botones */
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #7c867c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos específicos para botones de modificar y eliminar */
+.btn-modificar, .btn-eliminar {
+    background-color: #7c867c;
+}
